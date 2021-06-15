@@ -1,0 +1,43 @@
+body {
+    margin: 100px auto;
+    width: 500px;
+  }
+  
+  h3 {
+    margin: 100;
+    font-size: 5.5mm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(190, 93, 97);
+    padding-bottom: 4;
+    padding-right: 15px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 0 0 .5em;
+    font-family:Georgia, Times, serif;
+    font-style: italic;
+    color: rgb(48, 23, 192);
+  }
+  
+  .childcontainer {
+    border-top: solid 2px black;
+    position: relative;
+    background: rgb(223, 162, 215);
+    padding: 15px 35px 10px;
+    
+  }
+  
+  .button {
+    right: 15px;
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    font-size: 110%;
+    top: 0;
+    color: rgb(24, 23, 22);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
